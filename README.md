@@ -112,9 +112,9 @@ The dashboard includes:
 
 ![Top Product Selected](images/Topproduct-Selected.png)
 
-![Revenue Profit Drill Down Analysis](images/revenue-profit-drilldown-analysis.png)
-
 ![Product Drill Through](images/product-drill-through.png)
+
+![Revenue Profit Drill Down Analysis](images/revenue-profit-drilldown-analysis.png)
 
 ![Industry Analysis](images/industry-analysis.png)
 
