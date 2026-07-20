@@ -35,35 +35,6 @@ The dashboard was designed to answer key business questions, like:
 - Which products are among the Top N based on yearly profit?
 
 
-## SQL Solution
-
-SQL Server was used to prepare and analyze the data.
-
-The project includes analytical SQL queries using:
-
-- Common Table Expressions (CTEs)
-- Window Functions
-- CASE Statements
-- Aggregations
-- Views
-- Stored Procedures
-
-These solutions were designed to answer business questions and support Power BI reporting.
-
-## Power BI Dashboard
-
-The Power BI dashboard was developed to visualize sales performance and provide actionable business insights.
-
-The dashboard includes:
-
-- KPI tracking
-- Sales and profitability analysis (Revenue / Cost / Profit)
-- Customer analysis
-- Product performance analysis (Top N / Customer Analysis / Product Analysis / Time Analysis)
-- Time-based trends
-- Interactive filtering, drill-down, and drill-through functionality
-
-
 ## Data Model
 
 The project follows a Star Schema data warehouse design.
@@ -105,6 +76,34 @@ The project follows a Star Schema data warehouse design.
 - Year Quarter Date
 - Year Month Date
 
+
+## SQL Solution
+
+SQL Server was used to prepare and analyze the data.
+
+The project includes analytical SQL queries using:
+
+- Common Table Expressions (CTEs)
+- Window Functions
+- CASE Statements
+- Aggregations
+- Views
+- Stored Procedures
+
+These solutions were designed to answer business questions and support Power BI reporting.
+
+## Power BI Dashboard
+
+The Power BI dashboard was developed to visualize sales performance and provide actionable business insights.
+
+The dashboard includes:
+
+- KPI tracking
+- Sales and profitability analysis (Revenue / Cost / Profit)
+- Customer analysis
+- Product performance analysis (Top N / Customer Analysis / Product Analysis / Time Analysis)
+- Time-based trends
+- Interactive filtering, drill-down, and drill-through functionality
 
 ## Business Insights & Recommendations
 
