@@ -107,6 +107,16 @@ The dashboard includes:
 - Time-based analysis
 - Interactive filtering, drill-down, and drill-through functionality
 
+![Dashboard Overview](images/dashboard-overview.png)
+
+![Revenue Profit Drill Down Analysis](images/revenue-profit-drilldown-analysis.png)
+
+![Product Drill Through](images/product-drill-through.png)
+
+![Top Product Selected](images/Topproduct-Selected.png)
+
+![Industry Analysis](images/industry-analysis.png)
+
 ## Business Insights & Recommendations
 
 ### 1. Consistent Business Performance
