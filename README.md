@@ -30,9 +30,9 @@ To explore this project:
 2. Open the Power BI file from the `powerbi/` folder to interact with the dashboard.
 3. Review dashboard screenshots and visual documentation in the `images/` folder.
 
-## Key Business Insights & Recommendations
+## Business questions
 
-The dashboard was designed to answer key business questions, including:
+The dashboard was designed to answer key business questions, like:
 
 - Which country and industry generate the highest revenue and profit?
 - What are the monthly and yearly revenue and profit trends?
@@ -40,6 +40,80 @@ The dashboard was designed to answer key business questions, including:
 - Which products generate the highest profit?
 - How much does profit change from month to month?
 - Which products are among the Top N based on yearly profit?
+
+## Business Insights & Recommendations
+
+### 1. Consistent Business Performance
+
+Between 2023 and 2025, the company maintained a relatively stable financial performance with a slight year-over-year decline.
+
+| Year | Revenue | Profit |
+|------|---------:|--------:|
+| 2023 | 42.91M | 17.17M |
+| 2024 | 42.69M | 17.08M |
+| 2025 | 42.39M | 16.96M |
+
+Although the business remained profitable, the slight downward trend suggests a mature market with limited growth.
+
+**Recommendation**
+
+Focus on revenue growth through new customer acquisition, additional markets, and higher-value product offerings.
+
+---
+
+### 2. Technology Is the Dominant Customer Industry
+
+Across nearly all countries, customers from the Technology industry represented the largest share.
+
+Examples include:
+
+- USA: 28% (2023), 24% (2024), 27% (2025)
+- UK: 24% (2023), 25% (2024), 26% (2025)
+- Germany: 23% (2023), 28% (2024)
+
+**Recommendation**
+
+Prioritize sales and marketing activities for technology companies while exploring growth opportunities in underrepresented industries.
+
+---
+
+### 3. Beds and Sofas Are the Strongest Product Categories
+
+The Beds and Sofa categories consistently generated the highest share of total annual profit.
+
+Examples:
+
+| Year | Highest Categories |
+|------|--------------------|
+| 2023 | Beds (26.18%), Sofa (23.60%) |
+| 2024 | Sofa (25.16%), Beds (22.53%) |
+| 2025 | Beds (25.75%), Sofa (24.79%) |
+
+**Recommendation**
+
+Increase investment in high-performing product categories and evaluate the business value of lower-performing categories such as Lamps.
+
+---
+
+### 4. Predictable Seasonal Sales Pattern
+
+Revenue and profit followed a consistent seasonal pattern throughout all three years.
+
+Quarter 1 generally delivered the strongest performance, while Quarter 2 showed slightly lower results.
+
+Because the dataset is synthetic, the trends of Revenue, Cost, and Profit are intentionally similar.
+
+**Recommendation**
+
+Use seasonal promotions and targeted campaigns during weaker periods to improve quarterly performance.
+
+---
+
+### Overall Business Recommendation
+
+The analysis indicates a financially healthy and operationally stable business.
+
+Future growth should focus on expanding the customer base, strengthening relationships with technology-sector clients, and investing further in the highest-performing product categories.
 
 ## Data Model
 
