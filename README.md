@@ -103,17 +103,18 @@ The dashboard includes:
 - KPI tracking
 - Sales and profitability analysis (Revenue / Cost / Profit)
 - Product performance analysis (Top N analysis)
-- Customer and industry analysis
-- Time-based analysis
 - Interactive filtering, drill-down, and drill-through functionality
+- Time-based analysis
+- Customer and industry analysis
+
 
 ![Dashboard Overview](images/dashboard-overview.png)
+
+![Top Product Selected](images/Topproduct-Selected.png)
 
 ![Revenue Profit Drill Down Analysis](images/revenue-profit-drilldown-analysis.png)
 
 ![Product Drill Through](images/product-drill-through.png)
-
-![Top Product Selected](images/Topproduct-Selected.png)
 
 ![Industry Analysis](images/industry-analysis.png)
 
