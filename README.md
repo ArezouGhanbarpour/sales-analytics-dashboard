@@ -39,6 +39,8 @@ The dashboard was designed to answer the following business questions:
 
 The project follows a Star Schema data warehouse design.
 
+![Star Schema Data Model](images/star-schema-data-model.png)
+
 ### Fact Table
 
 **Sales**
