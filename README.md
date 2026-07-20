@@ -1,6 +1,5 @@
 # End-to-End Sales Analytics Dashboard
 
-![Project Banner](images/sales-dashboard.png)
 
 ## Project Overview
 
@@ -8,11 +7,39 @@ This project demonstrates an end-to-end Business Intelligence solution built usi
 
 The goal of this project is to transform raw sales data into meaningful business insights through data modeling, SQL analysis, and interactive dashboard design.
 
+## Technologies Used
+
+- SQL Server
+- Power BI
+- Data Warehouse Modeling
+- Star Schema Design
+- SQL Analytics
+- Business Intelligence
+
 ## Business Context
 
-The dataset represents a B2B sales environment where customers belong to different industries and countries.
+The dataset represents a B2B sales environment in which customers span different industries and countries.
 
 The company sells multiple products across various categories and needs analytical insights to understand sales performance, profitability, customer behavior, and product trends.
+
+## How to Explore This Project
+
+To explore this project:
+
+1. Review the SQL scripts in the `sql/` folder to understand the data preparation and analysis logic.
+2. Open the Power BI file from the `powerbi/` folder to interact with the dashboard.
+3. Review dashboard screenshots and visual documentation in the `images/` folder.
+
+## Key Business Insights & Recommendations
+
+The dashboard was designed to answer key business questions, including:
+
+- Which country and industry generate the highest revenue and profit?
+- What are the monthly and yearly revenue and profit trends?
+- How does profit develop throughout the year?
+- Which products generate the highest profit?
+- How much does profit change from month to month?
+- Which products are among the Top N based on yearly profit?
 
 ## Data Model
 
@@ -55,27 +82,6 @@ The project follows a Star Schema data warehouse design.
 - Year Quarter Date
 - Year Month Date
 
-## Technologies Used
-
-- SQL Server
-- Power BI
-- Data Warehouse Modeling
-- Star Schema Design
-- SQL Analytics
-- Business Intelligence
-
-## Repository Structure
-
-```text
-sales-analytics-dashboard
-│
-├── README.md
-├── images/
-├── sql/
-├── powerbi/
-└── docs/
-```
-
 ## SQL Solution
 
 SQL Server was used to prepare and analyze the data.
@@ -104,13 +110,21 @@ The dashboard includes:
 - Time-based trends
 - Interactive filtering, drill-down, and drill-through functionality
 
-## Business Insights
 
-The dashboard was designed to answer key business questions, including:
+## Repository Structure
 
-- Which country and industry generate the highest revenue and profit?
-- What are the monthly and yearly revenue and profit trends?
-- How does profit develop throughout the year?
-- Which products generate the highest profit?
-- How much does profit change from month to month?
-- Which products are among the Top N based on yearly profit?
+```text
+sales-analytics-dashboard
+│
+├── README.md
+├── images/
+├── sql/
+├── powerbi/
+└── docs/
+```
+
+## Data Source
+
+The dataset used in this project was generated from scratch using AI-assisted data generation.
+
+The data is synthetic and created for educational and portfolio purposes. It does not represent real company data or confidential information.
