@@ -1,4 +1,4 @@
-# End-to-End Sales Analytics Dashboard
+# Sales Analytics Dashboard
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-Database-blue)
