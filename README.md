@@ -220,8 +220,8 @@ sales-analytics-dashboard
 └── docs/
 ```
 
-## Data Source
+## Data Privacy
 
 The dataset used in this project was generated from scratch using AI-assisted data generation.
 
-The data is synthetic and created for educational and portfolio purposes. It does not represent real company data or confidential information.
+The data is synthetic and created for educational and portfolio purposes. It does not contain any real customer information or personally identifiable data (PII).
