@@ -1,9 +1,10 @@
 # End-to-End Sales Analytics Dashboard
 
-![SQL Server](https://img.shields.io/badge/SQL_Server-Database-blue)
-![Power BI](https://img.shields.io/badge/Power_BI-Business_Intelligence-yellow)
-![Star Schema](https://img.shields.io/badge/Data_Model-Star_Schema-green)
-![Business Intelligence](https://img.shields.io/badge/BI-Analytics-orange)
+![Status](https://img.shields.io/badge/Status-Completed-2F80ED)
+![SQL Server](https://img.shields.io/badge/SQL_Server-Database-2F80ED)
+![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-2F80ED)
+![Star Schema](https://img.shields.io/badge/Data_Model-Star_Schema-2F80ED)
+![Business Intelligence](https://img.shields.io/badge/BI-Analytics-2F80ED)
 
 ## Project Overview
 
