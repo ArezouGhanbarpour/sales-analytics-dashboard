@@ -16,19 +16,12 @@ The goal of this project is to transform raw sales data into meaningful business
 - SQL Analytics
 - Business Intelligence
 
+
 ## Business Context
 
 The dataset represents a B2B sales environment in which customers span different industries and countries.
 
 The company sells multiple products across various categories and needs analytical insights to understand sales performance, profitability, customer behavior, and product trends.
-
-## How to Explore This Project
-
-To explore this project:
-
-1. Review the SQL scripts in the `sql/` folder to understand the data preparation and analysis logic.
-2. Open the Power BI file from the `powerbi/` folder to interact with the dashboard.
-3. Review dashboard screenshots and visual documentation in the `images/` folder.
 
 ## Business questions
 
@@ -40,6 +33,78 @@ The dashboard was designed to answer key business questions, like:
 - Which products generate the highest profit?
 - How much does profit change from month to month?
 - Which products are among the Top N based on yearly profit?
+
+
+## SQL Solution
+
+SQL Server was used to prepare and analyze the data.
+
+The project includes analytical SQL queries using:
+
+- Common Table Expressions (CTEs)
+- Window Functions
+- CASE Statements
+- Aggregations
+- Views
+- Stored Procedures
+
+These solutions were designed to answer business questions and support Power BI reporting.
+
+## Power BI Dashboard
+
+The Power BI dashboard was developed to visualize sales performance and provide actionable business insights.
+
+The dashboard includes:
+
+- KPI tracking
+- Sales and profitability analysis (Revenue / Cost / Profit)
+- Customer analysis
+- Product performance analysis (Top N / Customer Analysis / Product Analysis / Time Analysis)
+- Time-based trends
+- Interactive filtering, drill-down, and drill-through functionality
+
+
+## Data Model
+
+The project follows a Star Schema data warehouse design.
+
+### Fact Table
+
+**Sales**
+- SalesID
+- CustomerID
+- ProductID
+- DateID
+- Quantity
+- Revenue Amount
+- Cost Amount
+- Profit Amount
+
+### Dimension Tables
+
+**Customer**
+- CustomerID
+- First Name
+- Last Name
+- Industry
+- Country
+
+**Product**
+- ProductID
+- Product Name
+- Category
+- Price
+
+**Date**
+- DateID
+- Year
+- Half Year Name
+- Quarter Name
+- Month Name
+- Year Half Year Date
+- Year Quarter Date
+- Year Month Date
+
 
 ## Business Insights & Recommendations
 
@@ -111,79 +176,17 @@ Use seasonal promotions and targeted campaigns during weaker periods to improve 
 
 ### Overall Business Recommendation
 
-The analysis indicates a financially healthy and operationally stable business.
+While current performance is stable, the consistent year-over-year decline signals that relying on the existing customer and product mix carries long-term risk.
+Short-term priority should be defending profitability in the strongest segments — Technology-sector clients and the Beds/Sofa categories — since they carry the most revenue concentration. Medium-term priority should shift toward diversification: testing new markets and underrepresented industries before the current growth ceiling becomes a decline.
+In short, the business is healthy enough to invest from a position of strength, but the window to do so proactively — rather than reactively — is narrowing. (concentration risk)
 
-Future growth should focus on expanding the customer base, strengthening relationships with technology-sector clients, and investing further in the highest-performing product categories.
+## How to Explore This Project
 
-## Data Model
+To explore this project:
 
-The project follows a Star Schema data warehouse design.
-
-### Fact Table
-
-**Sales**
-- SalesID
-- CustomerID
-- ProductID
-- DateID
-- Quantity
-- Revenue Amount
-- Cost Amount
-- Profit Amount
-
-### Dimension Tables
-
-**Customer**
-- CustomerID
-- First Name
-- Last Name
-- Industry
-- Country
-
-**Product**
-- ProductID
-- Product Name
-- Category
-- Price
-
-**Date**
-- DateID
-- Year
-- Half Year Name
-- Quarter Name
-- Month Name
-- Year Half Year Date
-- Year Quarter Date
-- Year Month Date
-
-## SQL Solution
-
-SQL Server was used to prepare and analyze the data.
-
-The project includes analytical SQL queries using:
-
-- Common Table Expressions (CTEs)
-- Window Functions
-- CASE Statements
-- Aggregations
-- Views
-- Stored Procedures
-
-These solutions were designed to answer business questions and support Power BI reporting.
-
-## Power BI Dashboard
-
-The Power BI dashboard was developed to visualize sales performance and provide actionable business insights.
-
-The dashboard includes:
-
-- KPI tracking
-- Sales and profitability analysis
-- Customer analysis
-- Product performance analysis
-- Time-based trends
-- Interactive filtering, drill-down, and drill-through functionality
-
+1. Review the SQL scripts in the `sql/` folder to understand the data preparation and analysis logic.
+2. Open the Power BI file from the `powerbi/` folder to interact with the dashboard.
+3. Review dashboard screenshots and visual documentation in the `images/` folder.
 
 ## Repository Structure
 
