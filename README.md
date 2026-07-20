@@ -23,9 +23,9 @@ The dataset represents a B2B sales environment in which customers span different
 
 The company sells multiple products across various categories and needs analytical insights to understand sales performance, profitability, customer behavior, and product trends.
 
-## Key Business questions
+## Key Business Questions
 
-The dashboard was designed to answer key business questions, like:
+The dashboard was designed to answer the following business questions:
 
 - Which country and industry generate the highest revenue and profit?
 - What are the monthly and yearly revenue and profit trends?
@@ -100,12 +100,12 @@ The dashboard includes:
 
 - KPI tracking
 - Sales and profitability analysis (Revenue / Cost / Profit)
-- Customer analysis
-- Product performance analysis (Top N / Customer Analysis / Product Analysis / Time Analysis)
-- Time-based trends
+- Product performance analysis (Top N analysis)
+- Customer and industry analysis
+- Time-based analysis
 - Interactive filtering, drill-down, and drill-through functionality
 
-## Key Business Insights & Recommendations
+## Business Insights & Recommendations
 
 ### 1. Consistent Business Performance
 
@@ -129,7 +129,7 @@ Focus on revenue growth through new customer acquisition, additional markets, an
 
 Across nearly all countries, customers from the Technology industry represented the largest share.
 
-Examples include:
+Examples of Technology industry customer share within each country include:
 
 - USA: 28% (2023), 24% (2024), 27% (2025)
 - UK: 24% (2023), 25% (2024), 26% (2025)
@@ -175,9 +175,11 @@ Use seasonal promotions and targeted campaigns during weaker periods to improve 
 
 ### Overall Business Recommendation
 
-While current performance is stable, the consistent year-over-year decline signals that relying on the existing customer and product mix carries long-term risk.
-Short-term priority should be defending profitability in the strongest segments — Technology-sector clients and the Beds/Sofa categories — since they carry the most revenue concentration. Medium-term priority should shift toward diversification: testing new markets and underrepresented industries before the current growth ceiling becomes a decline.
-In short, the business is healthy enough to invest from a position of strength, but the window to do so proactively — rather than reactively — is narrowing. (concentration risk)
+The business shows strong profitability and operational stability. However, the slight year-over-year decline indicates a potential long-term growth challenge.
+
+The short-term priority should be protecting the strongest segments, especially Technology customers and Beds/Sofa categories.
+
+The medium-term strategy should focus on diversification through new markets, customer segments, and product opportunities to reduce concentration risk.
 
 ## How to Explore This Project
 
