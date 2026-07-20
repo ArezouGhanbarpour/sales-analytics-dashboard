@@ -23,7 +23,7 @@ The dataset represents a B2B sales environment in which customers span different
 
 The company sells multiple products across various categories and needs analytical insights to understand sales performance, profitability, customer behavior, and product trends.
 
-## Business questions
+## Key Business questions
 
 The dashboard was designed to answer key business questions, like:
 
@@ -105,7 +105,7 @@ The dashboard includes:
 - Time-based trends
 - Interactive filtering, drill-down, and drill-through functionality
 
-## Business Insights & Recommendations
+## Key Business Insights & Recommendations
 
 ### 1. Consistent Business Performance
 
