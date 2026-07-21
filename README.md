@@ -113,16 +113,36 @@ The dashboard includes:
 - Time-based analysis
 - Customer and industry analysis
 
+## Dashboard Gallery
+
+### Sales Overview
 
 ![Dashboard Overview](images/dashboard-overview.png)
 
+### Product Performance Analysis
+
+#### Top Product Selection
+
 ![Top Product Selected](images/Topproduct-Selected.png)
+
+#### Product Drill-Through Analysis
 
 ![Product Drill Through](images/product-drill-through.png)
 
+
+#### Revenue and Profit Drill-Down Analysis
+
 ![Revenue Profit Drill Down Analysis](images/revenue-profit-drilldown-analysis.png)
 
+### Industry Analysis
+
 ![Industry Analysis](images/industry-analysis.png)
+
+### Profitability Analysis
+
+![Profitability Analysis](images/profitability-analysis.png)
+
+
 
 ## Business Insights & Recommendations
 
